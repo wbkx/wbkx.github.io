@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: wbkx
 subtitle: ''
-description: ''
+description: '写点什么东西的地方'
 keywords:
-author: John Doe
-language: en
-timezone: ''
+author: wbxk
+language: zh
+timezone: 'utc+8'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://wbkx.github.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -102,4 +102,7 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/wbkx/wbkx.github.io
+  # example, https://github.com/hexojs/hexojs.github.io
+  branch: gh-pages
