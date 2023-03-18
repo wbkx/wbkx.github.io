@@ -9,7 +9,7 @@ description: '写点什么东西的地方'
 keywords:
 author: wbxk
 language: zh
-timezone: 'utc+8'
+timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -97,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: aloha
+theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
