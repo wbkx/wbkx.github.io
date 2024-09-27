@@ -3,7 +3,7 @@ title: PowerShell 或者说 .NET 中的字符串替换
 date: 2024-09-27 19:32:18
 tags:
 ---
-主要参考了 MSDN 官网的教程[^1^]
+主要参考了 MSDN 官网的[教程](https://learn.microsoft.com/zh-cn/powershell/scripting/learn/deep-dives/everything-about-string-substitutions)
 
 ## Concatenation 连接
 
@@ -37,8 +37,8 @@ $msg = "Hello, $first $last"
 
 ## 高级格式设置
 
-这是来自于 .NET 的方法，也就是 `String.Format`[^2^] 的方法
-此处参考博客 [powershell字符串操作](https://www.cnblogs.com/zqj-blog/p/10044181.html) [^3^]
+这是来自于 .NET 的方法，也就是 [`String.Format`](https://learn.microsoft.com/zh-cn/dotnet/api/system.string.format) 的方法
+此处参考博客 [powershell字符串操作](https://www.cnblogs.com/zqj-blog/p/10044181.html) 
 
 1. 固定列宽
 
@@ -67,10 +67,3 @@ Write-Output $d  # 输出 $d
 ```
 
 4. 字符串替换
-
-
-相关链接：
-
-[^1^]: <https://learn.microsoft.com/zh-cn/powershell/scripting/learn/deep-dives/everything-about-string-substitutions>
-[^2^]: <https://learn.microsoft.com/zh-cn/dotnet/api/system.string.format>
-[^3^]: https://www.cnblogs.com/zqj-blog/p/10044181.html
